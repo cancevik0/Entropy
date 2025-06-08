@@ -51,7 +51,7 @@ No complex setup required! Simply clone the repository and open the main HTML fi
 
 1.  **Clone the repo**
     ```sh
-    git clone [https://github.com/cancevik0/Entropy.git](https://github.com/cancevik0/Entropy.git)
+    git clone https://github.com/cancevik0/Entropy.git
     ```
 2.  **Open the file**
     Navigate to the project directory and open `index.html` in your favorite web browser.
@@ -83,15 +83,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 <br>
 
-## License
-
-Distributed under the MIT License. See `LICENSE` file for more information.
-
-<br>
-
 ## Contact
-
-Project Link: [https://github.com/cancevik0/Entropy](https://github.com/cancevik0/Entropy)
 
 <div align="center">
     <a href="https://instagram.com/cancevik0" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
