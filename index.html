@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entropy</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/icon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Entropy</h1>
+
+        <div class="option-group">
+            <span>Length</span>
+            <select id="length-select" class="button-38" style="text-align:left; width:100%;">
+                <option value="8">8 Characters</option>
+                <option value="16" selected>16 Characters</option>
+                <option value="24">24 Characters</option>
+                <option value="32">32 Characters</option>
+            </select>
+        </div>
+
+        <div class="option-group">
+            <span>Uppercase (A-Z)</span>
+            <div class="radio-container">
+                <div class="radio-wrapper">
+                    <label><input type="radio" name="uppercase" value="yes" checked>Yes</label>
+                </div>
+                <div class="radio-wrapper">
+                    <label><input type="radio" name="uppercase" value="no">No</label>
+                </div>
+            </div>
+        </div>
+        <div class="option-group">
+            <span>Numbers (0-9)</span>
+            <div class="radio-container">
+                <div class="radio-wrapper">
+                    <label><input type="radio" name="numbers" value="yes" checked>Yes</label>
+                </div>
+                <div class="radio-wrapper">
+                    <label><input type="radio" name="numbers" value="no">No</label>
+                </div>
+            </div>
+        </div>
+        <div class="option-group">
+            <span>Symbols (#-?)</span>
+            <div class="radio-container">
+                <div class="radio-wrapper">
+                    <label><input type="radio" name="symbols" value="yes" checked>Yes</label>
+                </div>
+                <div class="radio-wrapper">
+                    <label><input type="radio" name="symbols" value="no">No</label>
+                </div>
+            </div>
+        </div>
+
+        <button id="generate-btn" class="button-38">Generate Password</button>
+
+        <div class="result-wrapper">
+            <label class="inp">
+                <input type="text" id="password-output" placeholder="Your password will appear here..." readonly>
+                <svg width="100%" height="18px" viewBox="0 0 280 18" class="border" preserveAspectRatio="none">
+                    <path d="M0,12 L280,12"></path>
+                </svg>
+            </label>
+            <button id="copy-btn" class="button-38">Copy</button>
+        </div>
+
+        <div class="social-links">
+            <a href="https://instagram.com/cancevik0" target="_blank" title="Instagram"><i
+                    class="fab fa-instagram"></i></a>
+            <a href="https://github.com/cancevik0" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/ismailcancevik" target="_blank" title="LinkedIn"><i
+                    class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.youtube.com/@nacdevelopment" target="_blank" title="YouTube"><i
+                    class="fab fa-youtube"></i></a>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
