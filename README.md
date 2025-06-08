@@ -1,4 +1,4 @@
-# Entropy
+# Entropy [Demo](https://cancevik0.github.io/Entropy/)
 
 *A sleek, modern, and highly customizable password generator designed to create strong, unique passwords for all your online accounts.*
 
